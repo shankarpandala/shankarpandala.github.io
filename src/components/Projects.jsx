@@ -59,6 +59,16 @@ const platforms = [
     desc: 'Time series forecasting — ARIMA, Prophet, neural forecasting models, and practical applications in finance and demand planning.',
     tags: ['Time Series', 'ARIMA', 'Prophet', 'Finance'],
   },
+  {
+    icon: '🔬',
+    iconBg: 'rgba(129, 140, 248, 0.15)',
+    iconColor: '#818cf8',
+    name: 'Learn Semiconductors',
+    url: 'https://www.pandala.in/learn-semi/',
+    urlLabel: 'pandala.in/learn-semi',
+    desc: 'Semiconductors for Data Scientists — chip design, fabrication, Moore\'s Law, and how hardware shapes AI compute.',
+    tags: ['Semiconductors', 'Chip Design', 'AI Hardware'],
+  },
 ]
 
 export default function Projects() {
