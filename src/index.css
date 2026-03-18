@@ -221,6 +221,7 @@ img {
   color: var(--text-primary);
   line-height: 1.1;
   margin-bottom: 4px;
+  white-space: nowrap;
 }
 
 .hero-name-accent {
@@ -233,7 +234,7 @@ img {
 .hero-tagline {
   font-size: clamp(14px, 1.5vw, 17px);
   color: var(--text-secondary);
-  max-width: 560px;
+  max-width: 720px;
   margin: 12px auto 20px;
   line-height: 1.6;
 }
@@ -703,6 +704,13 @@ img {
   }
   .hero {
     padding: 76px 20px 24px;
+  }
+  .hero-name {
+    font-size: 28px;
+    white-space: normal;
+  }
+  .hero-tagline {
+    max-width: 100%;
   }
   .navbar-inner {
     padding: 0 20px;
