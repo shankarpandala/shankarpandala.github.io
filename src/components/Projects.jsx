@@ -59,6 +59,16 @@ const platforms = [
     desc: 'Time series forecasting — ARIMA, Prophet, neural forecasting models, and practical applications in finance and demand planning.',
     tags: ['Time Series', 'ARIMA', 'Prophet', 'Finance'],
   },
+  {
+    icon: '🔬',
+    iconBg: 'rgba(129, 140, 248, 0.15)',
+    iconColor: '#818cf8',
+    name: 'Learn Semi-Supervised',
+    url: 'https://www.pandala.in/learn-semi/',
+    urlLabel: 'pandala.in/learn-semi',
+    desc: 'Semi-supervised learning — leveraging unlabeled data with self-training, co-training, graph-based methods, and modern SSL techniques.',
+    tags: ['SSL', 'Self-Training', 'Label Propagation'],
+  },
 ]
 
 export default function Projects() {
