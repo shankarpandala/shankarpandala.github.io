@@ -59,7 +59,7 @@ img {
 .section {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 100px 48px;
+  padding: 48px 48px;
 }
 
 .section-label {
@@ -170,7 +170,7 @@ img {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 80px 48px 32px;
+  padding: 72px 48px 16px;
   position: relative;
   overflow: hidden;
 }
@@ -680,7 +680,7 @@ img {
 /* ===== Responsive ===== */
 @media (max-width: 1024px) {
   .section {
-    padding: 80px 32px;
+    padding: 40px 32px;
   }
   .projects-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -700,10 +700,10 @@ img {
 
 @media (max-width: 768px) {
   .section {
-    padding: 64px 20px;
+    padding: 36px 20px;
   }
   .hero {
-    padding: 76px 20px 24px;
+    padding: 68px 20px 16px;
   }
   .hero-name {
     font-size: 28px;
