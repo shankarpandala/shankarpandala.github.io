@@ -74,8 +74,6 @@ export default function Projects() {
           <a
             key={p.name}
             href={p.url}
-            target="_blank"
-            rel="noopener noreferrer"
             className="project-card"
             style={{ textDecoration: 'none' }}
           >
