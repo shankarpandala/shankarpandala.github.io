@@ -164,13 +164,13 @@ img {
 
 /* ===== Hero ===== */
 .hero {
-  min-height: 100vh;
+  min-height: 33vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 120px 48px 80px;
+  padding: 80px 48px 32px;
   position: relative;
   overflow: hidden;
 }
@@ -191,14 +191,14 @@ img {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: 8px 20px;
+  padding: 6px 16px;
   border-radius: 24px;
   border: 1px solid var(--border-light);
   background: rgba(92, 224, 216, 0.05);
   font-family: var(--font-mono);
-  font-size: 14px;
+  font-size: 13px;
   color: var(--accent-cyan);
-  margin-bottom: 40px;
+  margin-bottom: 16px;
 }
 .hero-badge::before {
   content: '';
@@ -216,11 +216,11 @@ img {
 
 .hero-name {
   font-family: var(--font-serif);
-  font-size: clamp(48px, 8vw, 96px);
+  font-size: clamp(32px, 5vw, 56px);
   font-weight: 800;
   color: var(--text-primary);
-  line-height: 1.05;
-  margin-bottom: 8px;
+  line-height: 1.1;
+  margin-bottom: 4px;
 }
 
 .hero-name-accent {
@@ -231,11 +231,11 @@ img {
 }
 
 .hero-tagline {
-  font-size: clamp(16px, 2vw, 20px);
+  font-size: clamp(14px, 1.5vw, 17px);
   color: var(--text-secondary);
-  max-width: 620px;
-  margin: 24px auto 40px;
-  line-height: 1.7;
+  max-width: 560px;
+  margin: 12px auto 20px;
+  line-height: 1.6;
 }
 
 .hero-buttons {
@@ -249,10 +249,10 @@ img {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: 14px 28px;
+  padding: 10px 24px;
   border-radius: 8px;
   font-family: var(--font-sans);
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 500;
   cursor: pointer;
   transition: all 0.25s;
@@ -702,7 +702,7 @@ img {
     padding: 64px 20px;
   }
   .hero {
-    padding: 100px 20px 60px;
+    padding: 76px 20px 24px;
   }
   .navbar-inner {
     padding: 0 20px;
