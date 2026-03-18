@@ -3,7 +3,7 @@ export default function Hero() {
     <section className="hero" id="home">
       <div className="hero-badge">Building in public</div>
       <h1 className="hero-name">
-        Shankar Rao <span className="hero-name-accent">Pandala</span>
+        Shankar <span className="hero-name-accent">Pandala</span>
       </h1>
       <p className="hero-tagline">
         Data Scientist &amp; AI Engineer with 13+ years of experience. I build
