@@ -63,11 +63,11 @@ const platforms = [
     icon: '🔬',
     iconBg: 'rgba(129, 140, 248, 0.15)',
     iconColor: '#818cf8',
-    name: 'Learn Semi-Supervised',
+    name: 'Learn Semiconductors',
     url: 'https://www.pandala.in/learn-semi/',
     urlLabel: 'pandala.in/learn-semi',
-    desc: 'Semi-supervised learning — leveraging unlabeled data with self-training, co-training, graph-based methods, and modern SSL techniques.',
-    tags: ['SSL', 'Self-Training', 'Label Propagation'],
+    desc: 'Semiconductors for Data Scientists — chip design, fabrication, Moore\'s Law, and how hardware shapes AI compute.',
+    tags: ['Semiconductors', 'Chip Design', 'AI Hardware'],
   },
 ]
 
