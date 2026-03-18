@@ -57,7 +57,7 @@ img {
 
 /* ===== Utility ===== */
 .section {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 48px 48px;
 }
@@ -100,7 +100,7 @@ img {
 }
 
 .navbar-inner {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 0 48px;
   height: 64px;
@@ -282,7 +282,7 @@ img {
 /* ===== Project Cards ===== */
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 24px;
   margin-top: 48px;
 }
@@ -646,7 +646,7 @@ img {
 .footer {
   border-top: 1px solid var(--border);
   padding: 32px 48px;
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -681,7 +681,7 @@ img {
     padding: 40px 32px;
   }
   .projects-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
   .about-section {
     grid-template-columns: 1fr;
