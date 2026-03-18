@@ -28,6 +28,8 @@ export default function OpenSource() {
           <a
             key={p.name}
             href={p.url}
+            target="_blank"
+            rel="noopener noreferrer"
             className="opensource-card"
             style={{ textDecoration: 'none' }}
           >
