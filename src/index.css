@@ -675,6 +675,12 @@ img {
   color: var(--text-primary);
 }
 
+.visitor-count {
+  font-size: 13px;
+  color: var(--text-muted);
+  letter-spacing: 0.5px;
+}
+
 /* ===== Responsive ===== */
 @media (max-width: 1024px) {
   .section {
