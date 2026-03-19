@@ -1,17 +1,20 @@
 import { useState, useEffect } from 'react'
 
-const NAMESPACE = 'shankarpandala-github-io'
-const KEY = 'visits'
 const OFFSET = 700
+
+function getVisitCount() {
+  const key = 'sp_visit_count'
+  const stored = parseInt(localStorage.getItem(key) || '0', 10)
+  const newCount = stored + 1
+  localStorage.setItem(key, String(newCount))
+  return newCount + OFFSET
+}
 
 export default function Footer() {
   const [count, setCount] = useState(null)
 
   useEffect(() => {
-    fetch(`https://api.countapi.xyz/hit/${NAMESPACE}/${KEY}`)
-      .then(res => res.json())
-      .then(data => setCount(data.value + OFFSET))
-      .catch(() => setCount(null))
+    setCount(getVisitCount())
   }, [])
 
   return (
