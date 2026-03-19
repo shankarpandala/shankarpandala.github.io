@@ -69,6 +69,16 @@ const platforms = [
     desc: 'Semiconductors for Data Scientists — chip design, fabrication, Moore\'s Law, and how hardware shapes AI compute.',
     tags: ['Semiconductors', 'Chip Design', 'AI Hardware'],
   },
+  {
+    icon: '🦀',
+    iconBg: 'rgba(222, 110, 75, 0.15)',
+    iconColor: '#de6e4b',
+    name: 'Rust for Python',
+    url: 'https://www.pandala.in/rust4python/',
+    urlLabel: 'pandala.in/rust4python',
+    desc: 'Rust for Python developers — ownership, borrowing, lifetimes, and performance-oriented programming for Pythonistas.',
+    tags: ['Rust', 'Python', 'Performance', 'Systems'],
+  },
 ]
 
 export default function Projects() {
