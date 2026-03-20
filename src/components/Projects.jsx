@@ -70,6 +70,16 @@ const platforms = [
     tags: ['Semiconductors', 'Chip Design', 'AI Hardware'],
   },
   {
+    icon: '📊',
+    iconBg: 'rgba(99, 102, 241, 0.15)',
+    iconColor: '#6366f1',
+    name: 'Quant Finance',
+    url: 'https://www.pandala.in/quant-finance/',
+    urlLabel: 'pandala.in/quant-finance',
+    desc: 'Quantitative Finance — options pricing, portfolio optimization, risk management, and trading strategies with Indian market focus.',
+    tags: ['Options', 'Portfolio', 'Risk', 'Indian Markets'],
+  },
+  {
     icon: '🦀',
     iconBg: 'rgba(222, 110, 75, 0.15)',
     iconColor: '#de6e4b',
