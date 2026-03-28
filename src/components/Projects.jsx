@@ -89,6 +89,16 @@ const platforms = [
     desc: 'Rust for Python developers — ownership, borrowing, lifetimes, and performance-oriented programming for Pythonistas.',
     tags: ['Rust', 'Python', 'Performance', 'Systems'],
   },
+  {
+    icon: '🤖',
+    iconBg: 'rgba(118, 185, 0, 0.15)',
+    iconColor: '#76b900',
+    name: 'Learn NemoClaw',
+    url: 'https://www.pandala.in/learn-nemoclaw/',
+    urlLabel: 'pandala.in/learn-nemoclaw',
+    desc: 'NVIDIA NemoClaw & OpenClaw — secure AI agent deployment, guardrails, sandboxed execution, and safe tool use for LLM agents.',
+    tags: ['NVIDIA', 'AI Agents', 'Guardrails', 'Security'],
+  },
 ]
 
 export default function Projects() {
