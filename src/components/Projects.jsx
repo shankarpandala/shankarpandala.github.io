@@ -106,7 +106,7 @@ const platforms = [
     name: 'Building Agents',
     url: 'https://www.pandala.in/building-agents/',
     urlLabel: 'pandala.in/building-agents',
-    desc: 'Building AI Agents from scratch — agent architectures, tool use patterns, memory systems, and hands-on implementation of autonomous AI systems.',
+    desc: 'Building AI Agents from scratch — learn to design and build AI agents the way Claude Code agents are architected, covering agent architectures, tool use patterns, and memory systems.',
     tags: ['AI Agents', 'Architecture', 'Tool Use', 'Hands-on'],
   },
 ]
