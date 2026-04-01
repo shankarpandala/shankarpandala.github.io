@@ -99,6 +99,16 @@ const platforms = [
     desc: 'NVIDIA NemoClaw & OpenClaw — secure AI agent deployment, guardrails, sandboxed execution, and safe tool use for LLM agents.',
     tags: ['NVIDIA', 'AI Agents', 'Guardrails', 'Security'],
   },
+  {
+    icon: '🏗️',
+    iconBg: 'rgba(56, 189, 248, 0.15)',
+    iconColor: '#38bdf8',
+    name: 'Building Agents',
+    url: 'https://www.pandala.in/building-agents/',
+    urlLabel: 'pandala.in/building-agents',
+    desc: 'Building AI Agents from scratch — agent architectures, tool use patterns, memory systems, and hands-on implementation of autonomous AI systems.',
+    tags: ['AI Agents', 'Architecture', 'Tool Use', 'Hands-on'],
+  },
 ]
 
 export default function Projects() {
